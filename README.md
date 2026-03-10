@@ -88,6 +88,21 @@ Function block running the reconstructed Bi-LSTM in real-time.
 | Learning Capability | No | Yes |
 | Accuracy | Reference | 94.76% |
 
+## Results
+
+### Training Performance
+![Feature Distribution](results/feature_distribution.png)
+![Correlation Heatmap](results/correlation_heatmap.png)
+![Actual vs Predicted](results/actual_vs_predicted.png)
+![Training Loss](results/training_loss.png)
+![MAE Curve](results/mae_curve.png)
+![Accuracy Curve](results/accuracy_curve.png)
+![Residual Analysis](results/residual_analysis.png)
+
+### Simulink Deployment
+![Simulink Block](results/simulink_block.png)
+![System Output](results/system_output.png)
+
 ## Tech Stack
 - Python 3 (Google Colab) — training
 - TensorFlow / Keras — model
