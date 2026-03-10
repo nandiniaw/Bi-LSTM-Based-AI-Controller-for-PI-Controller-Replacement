@@ -100,7 +100,6 @@ Function block running the reconstructed Bi-LSTM in real-time.
 ![Residual Analysis](results/residual_analysis.png)
 
 ### Simulink Deployment
-![Simulink Block](results/simulink_block.png)
 ![System Output](results/system_output.png)
 
 ## Tech Stack
