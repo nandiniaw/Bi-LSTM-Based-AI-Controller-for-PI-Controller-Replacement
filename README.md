@@ -127,11 +127,13 @@ load('scaler_params.mat')
 3. Open the Simulink model
 4. Run simulation and observe LSTM controller output
 
-## Project Status
-✅ Data collection and feature engineering — Complete  
-✅ Bi-LSTM training and validation — Complete  
-✅ Weight extraction and MATLAB reconstruction — Complete  
-✅ Simulink deployment and PI replacement — Complete  
+## Dataset
+The dataset was collected from a PI-controlled system simulation.
+
+- **Total Samples:** 120,001
+- **Format:** xlxs
+- **Features:** Vref, Vsensed, PI_input, PI_output
+- **Engineered Features:** Error, error difference, error cumulative sum, lag values
 
 ## Author
 **Nandini Walia**
